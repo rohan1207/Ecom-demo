@@ -1,17 +1,17 @@
-import { BrowserRouter } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 import Footer from "./Components/Footer/Footer";
 import Navbar from "./Components/Navbar/Navbar";
 import Admin from "./Pages/Admin";
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div>
         <Navbar />
         <Admin />
         <Footer />
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
